@@ -9,7 +9,7 @@ def oxford_comma(array)
     array.each_with_index{ |word, index|
       
       if index == (array.length-1)
-        string += "and "
+        string += "and " + word
       
       else 
         string += word + ", "
