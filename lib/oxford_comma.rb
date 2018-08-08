@@ -15,4 +15,5 @@ def oxford_comma(array)
     
     }
     return string
+  end 
 end
