@@ -7,13 +7,13 @@ def oxford_comma(array)
   else
     string = ""
     array.each_with_index{ |word, index|
-      string += word + ", "
       
       if index == (array.length-1)
         string += "and "
       end
-    
+    string += word + ", "
     }
+    
     return string
   end 
 end
