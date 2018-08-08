@@ -10,8 +10,10 @@ def oxford_comma(array)
       
       if index == (array.length-1)
         string += "and "
-      end
-    else string += word + ", "
+      
+      else 
+        string += word + ", "
+      end 
     }
     
     return string
